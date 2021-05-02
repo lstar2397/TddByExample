@@ -7,3 +7,5 @@
 - [ ] amount를 private으로 만들기
 - [X] Dollar 부작용?
 - [ ] Money 반올림?
+- [X] Equals()
+- [ ] HashCode()
