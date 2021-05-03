@@ -4,10 +4,8 @@ using System.Text;
 
 namespace MoneyExample
 {
-    public class Dollar
+    public class Dollar : Money
     {
-        private int amount;
-
         public Dollar(int amount)
         {
             this.amount = amount;
@@ -16,12 +14,6 @@ namespace MoneyExample
         public Dollar Times(int multiplier)
         {
             return new Dollar(amount * multiplier);
-        }
-
-        public override bool Equals(object obj)
-        {
-            Dollar dollar = (Dollar)obj;
-            return amount == dollar.amount;
         }
     }
 }
