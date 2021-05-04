@@ -6,14 +6,14 @@ namespace MoneyExample
 {
     public class Franc : Money
     {
-        public Franc(int amount)
+        public Franc(int amount, string currency) : base(amount, currency)
         {
-            this.amount = amount;
+
         }
 
-        public Franc Times(int multiplier)
+        public override Money Times(int multiplier)
         {
-            return new Franc(amount * multiplier);
+            return Franc(amount * multiplier);
         }
     }
 }

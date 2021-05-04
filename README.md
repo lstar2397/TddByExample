@@ -16,4 +16,5 @@
 - [X] 공용 Equals
 - [ ] 공용 Times
 - [X] Franc과 Dollar 비교하기
-- [ ] 통화?
+- [X] 통화?
+- [ ] TestFrancMultiplication 제거
